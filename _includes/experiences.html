@@ -35,8 +35,8 @@
 </section><!--//section-->
 {% endif %}
 
-{% assign strengths = site.data.data.strength %}
-{% if strengths %}
+{% assign experiences = site.data.data.strength %}
+{% if experiences %}
   <section class="section experiences-section">
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
@@ -45,9 +45,9 @@
     </span>
     My Strengths
   </h2>
-    {% if strength.details %}
+    {% if experiences.details %}
       <div class="details">
-      {{ strength.details | markdownify }}
+      {{ experiences.details | markdownify }}
     </div><!--//details-->
     {% endif %}
 {% endif %}
