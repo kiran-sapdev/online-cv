@@ -101,7 +101,8 @@ experiences:
           - Used service call BAPI for PO and PR release for web application.
         
  
-My Strength: |
+strength: 
+    details: |
           - Introduction to ABAP/4 - R/3 Architecture
           - ABAP Dictionary Objects - Data Types, Tables, Structures, Views, Search Helps, Lock Objects 
           - SAP Functions - Subroutines, Function Modules, Includes.
