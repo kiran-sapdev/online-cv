@@ -35,3 +35,19 @@
 </section><!--//section-->
 {% endif %}
 
+{% assign strength = site.data.data.experiences %}
+{% if strength %}
+  <section class="section experiences-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+    </span>
+    My Strengths
+  </h2>
+    {% if experience.details %}
+      <div class="details">
+      {{ strength.details | markdownify }}
+    </div><!--//details-->
+    {% endif %}
+{% endif %}
